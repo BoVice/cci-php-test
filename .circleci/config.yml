@@ -5,9 +5,8 @@
 version: 2
 jobs:
   build:
-    docker:
-      # Specify the version you desire here
-      - image: circleci/php:7.2-browsers
+    machine:
+      image: circleci/php:7.2-browsers
 
       # Specify service dependencies here if necessary
       # CircleCI maintains a library of pre-built images
